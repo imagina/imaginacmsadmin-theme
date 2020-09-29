@@ -20,13 +20,13 @@
   "scripts": {
     "post-install-cmd": [
       "php artisan stylist:publish",
-      "rm -rf ./public/admin",
-      "cp -Rf ./Themes/Adminlte/admin ./public/"
+      "rm -rf ./public/iadmin",
+      "cp -Rf ./Themes/Adminlte/iadmin ./public/"
     ],
     "post-update-cmd": [
       "php artisan stylist:publish",
-      "rm -rf ./public/admin",
-      "cp -Rf ./Themes/Adminlte/admin ./public/"
+      "rm -rf ./public/iadmin",
+      "cp -Rf ./Themes/Adminlte/iadmin ./public/"
     ]
   },
   "extra": {
