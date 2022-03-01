@@ -108,7 +108,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "css/8.72027767.css"
   },
   {
-    "revision": "cdc375d5131b339fddea",
+    "revision": "8576a63052744cd17b46",
     "url": "css/app.27899e0c.css"
   },
   {
@@ -152,7 +152,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/jsoneditor-icons.15f2789d.svg"
   },
   {
-    "revision": "1bde6607ec1b1a8be727113f6195d78a",
+    "revision": "1b25a1f8b53a923b42774a4060278ab8",
     "url": "index.html"
   },
   {
@@ -268,8 +268,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/8.e882279c.js"
   },
   {
-    "revision": "cdc375d5131b339fddea",
-    "url": "js/app.f2290f13.js"
+    "revision": "8576a63052744cd17b46",
+    "url": "js/app.dbb827d8.js"
   },
   {
     "revision": "433dd4357b70d5012abd",
