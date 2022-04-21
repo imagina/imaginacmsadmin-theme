@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "css/9.95afe87d.css"
   },
   {
-    "revision": "57cf0bdeb04984dd803f",
-    "url": "css/app.8de9e4ec.css"
+    "revision": "a92087a5e3b8eba03638",
+    "url": "css/app.9083fceb.css"
   },
   {
     "revision": "1a575a4138e5f366474f0e7c5bd614a5",
@@ -72,7 +72,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/jsoneditor-icons.15f2789d.svg"
   },
   {
-    "revision": "1e74777a56a68d80cdeec96c3c3b2cd5",
+    "revision": "21111960238db98129ea47b833134403",
     "url": "index.html"
   },
   {
@@ -112,12 +112,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/9.9ed24ac4.js"
   },
   {
-    "revision": "57cf0bdeb04984dd803f",
+    "revision": "a92087a5e3b8eba03638",
     "url": "js/app.c126b18e.js"
   },
   {
-    "revision": "934ab66690aaffd76dc0",
-    "url": "js/vendor.934ab666.js"
+    "revision": "6a2c8d117878de02f2ba",
+    "url": "js/vendor.6a2c8d11.js"
   },
   {
     "revision": "d81d5e4ed406f9a6c4e42d2ed1a5ddde",
