@@ -1,4 +1,4 @@
-importScripts("precache-manifest.8384f5132e3226549f963397fcde5735.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("precache-manifest.05c37f19d2e6e9eb53387acb457f9ed3.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 /*
  * This file (which will be your service worker)
