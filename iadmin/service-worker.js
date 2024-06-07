@@ -1,4 +1,4 @@
-importScripts("precache-manifest.6b4224c4c7115616f4f4b06722c62e2d.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("precache-manifest.ca5d21606faeca993cf8172e453eb1e0.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 /*
  * This file (which will be your service worker)
@@ -79,6 +79,29 @@ if (workbox) {
     }
   });
 
+  self.addEventListener('notificationclick', function (event) {
+    // Optional: Close the notification
+    event.notification.close();
+
+    // Retrieve the URL from the notification data
+    let url = event.notification.data?.url || event.notification.data?.link || self.location.origin;
+
+    event.waitUntil(
+      clients.matchAll({type: 'window'}).then(clientList => {
+        for (let i = 0; i < clientList.length; i++) {
+          let client = clientList[i];
+          // If there's already a window open with the URL, focus it
+          if (client.url === url && 'focus' in client) {
+            return client.focus();
+          }
+        }
+        // If no window is open, open a new one with the specified URL
+        if (clients.openWindow) {
+          return clients.openWindow(url);
+        }
+      })
+    );
+  })
 
   //Network falling back to the cache
 
