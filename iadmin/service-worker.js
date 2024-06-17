@@ -1,4 +1,4 @@
-importScripts("precache-manifest.ca5d21606faeca993cf8172e453eb1e0.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("precache-manifest.37ddac532479293a10c1d4e510ba3fa2.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 /*
  * This file (which will be your service worker)
@@ -8,6 +8,8 @@ importScripts("precache-manifest.ca5d21606faeca993cf8172e453eb1e0.js", "https://
  */
 
 /* global workbox */
+importScripts('pusher-sw.js')
+
 if (workbox) {
   workbox.precaching.precache(self.__precacheManifest)
 
